@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio website.">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Yashwin Bisen</h1>
+        <p id="header-p">Computer Science Engineering Student</p>
+    </header>
+
+    <nav class="navbar">
+        <div class="logo"><img src="yashwin.jpeg" class="logo-profile" alt=""></div>
+        <ul class="nav-links">
+            <li><a href="#about">About_me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="yashwin.jpeg" class="profile" alt="My profile photo.">
+            <p>I am a computer science student learning software development and web technologies.</p>
+            <h3>My Github</h3>
+            <a href="https://github.com/YASHWINBISEN" target="_blank"><b>Visit my Github profile</b></a>
+        </section>
+
+        <hr>
+
+        <section id="skill">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class="project">
+            <h2>My Projects</h2>
+
+            <div class="project-card-grid">
+                <article class="project-card">
+                    <h3 class="project_title">Password Manager</h3>
+                    <p>A Java application for managing password entries.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project_title">Text to QR Code</h3>
+                    <p>A Java application that converts text into QR codes.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project_title">ORS Project</h3>
+                    <p>Basic Java Project.</p>
+                </article>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Practice Section</h2>
+            <p class="highlight">First Paragraph.</p>
+            <p>Second Paragraph.</p>
+            <p class="highlight">Third Paragraph.</p>
+        </section>
+
+        <hr>
+
+        <section id="education">
+            <h3>Education</h3>
+
+            <table border="1">
+                <caption>My Education</caption>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institute</th>
+                </tr>
+                <tr>
+                    <td>B.Tech CSE</td>
+                    <td>Bansal Institute of Science and Technology</td>
+                </tr>
+                <tr>
+                    <td>12<sup>th</sup></td>
+                    <td>Omega English School</td>
+                </tr>
+            </table>
+            <section>
+
+                <hr>
+
+                <section id="contact">
+                    <h2>Contact Me</h2>
+
+                    <form>
+                        <label for="visitor-name">Your name:</label>
+                        <input type="text" id="visitor-name" name="visitor-name" required>
+
+                        <br><br>
+
+                        <label for="visitor-email">Your email:</label>
+                        <input type="email" id="visitor-email" name="visitor-email" required>
+
+                        <br><br>
+
+                        <label for="message">Your message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <br><br>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+</body>
+
+</html>

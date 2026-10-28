@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+    </head>
+
+    <body>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>yashwin</td>
+                <td>cse</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>yogansh</td>
+                <td>aiml</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <br></br>
+        
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+
+            <br></br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <br></br>
+
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="cse">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="ece">Electronics</option>
+            </select>
+
+            <p>Study Mode:</p>
+
+            <label for="online">Online</label>
+            <input type="radio" id="online" name="mode" value="online">
+            
+            <label for="offline">Offline</label>
+            <input type="radio" id="offline" name="mode" value="offline">
+            
+            <br></br>
+
+            <input type="checkbox" name="term" id="term">
+            <label for="term">I accept terms and condition.</label>
+
+            <br></br>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+
+
+    </body>
+</html>
